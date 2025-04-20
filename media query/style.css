@@ -1,0 +1,66 @@
+/* .box{
+    width: 100%;
+    height: 100vh;
+    background-color: blue;
+}
+
+
+
+@media only screen and (max-width:768px){
+    .box{
+        background-color: red;
+    }
+    .box h1{
+    text-align: center;
+    color: white;
+     }
+
+
+}
+
+
+
+@media only screen and (max-width:425px){
+    .box{
+        background-color: yellow;
+    }
+} */
+
+
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: blue;
+    padding: 10px;
+}
+
+.navlist ul{
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+
+}
+
+.navlist ul li{
+    list-style: none;
+    font-size: 22px;
+}
+
+.icon{
+    padding-right: 20px;
+    font-size: 22px;
+   display: none;
+}
+
+
+
+@media only screen and (max-width:425px){
+    .icon{
+        display: block;
+    }
+.navlist{
+    display: none;
+}
+
+}

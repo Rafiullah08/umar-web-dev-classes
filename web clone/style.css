@@ -1,0 +1,44 @@
+/* .intro-section{
+    width: 100%;
+    height: 500px;
+    background-color: red;
+display: flex;
+
+}
+
+.left{
+    width: 50%;
+    background-color: blue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 28px;
+}
+
+.left span{
+    color: green;
+}
+
+.right{
+    width: 50%;
+}
+.right img{
+    width:100%;
+    height: 500px;
+} */
+
+
+.section{
+    background-image: url(./bybit.jpg);
+    /* width: 80%; */
+    height: 500px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.section button{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
