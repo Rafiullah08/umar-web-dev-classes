@@ -15,9 +15,14 @@ var obj = {
         return this.fname + " " + this.lname + "age" + this.age
     },
 
-    hoobies: ["reading book", "traveling", 2,3,4]
+    hoobies: ["reading book", "traveling", 2,3,4],
+    age2 :78,
+    name : "jhjhj"
 
 }
+
+
+
 
 // document.writeln(array, );
 // document.writeln(obj.fullName());
