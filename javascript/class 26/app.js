@@ -87,3 +87,5 @@ let addnum = (a , b)=> {
 
 
 console.log(addnum(23 , 34));
+
+// vertix ai?
